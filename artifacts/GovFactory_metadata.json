@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "SpaceCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenaddr",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_snap",
+						"type": "bool"
+					}
+				],
+				"name": "createSpace",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "space",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GovFactory.sol": "GovFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"GovFactory.sol": {
+			"keccak256": "0x53b4b7254e5484d2e91477d547ec8f1ee641bd5196a86cf1be4f60cac3133863",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b753dd721cb90f046376ca9459a2057f28849d6d54f9348dd97f8f0d66ed40c7",
+				"dweb:/ipfs/QmNVGyjrtDxNwHrp6hgZeQSwbuv8YYkh4NgvEVfpuDhyGU"
+			]
+		},
+		"Governor.sol": {
+			"keccak256": "0x98aa8b4467afa7dda847d1bed4ddf1c44ed080f3c3781921592d95d4c3bc1a6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f36d0c8138c9ef35874b4fb9e74be92734f27d9ac63f1f00cc00948b3826092",
+				"dweb:/ipfs/QmZJd86H58JuiCmQMVcJrQmUFwZ2AyhkgrsxGVyz788hmS"
+			]
+		},
+		"IGovernor.sol": {
+			"keccak256": "0x8d3a6198452755a66671149e6a074ed3cf9f7dea58822706d7f97fec9ad189cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2356bfb590f388fd8c8bb7f3650b45b663169b7ee57aeba13880072fde0a6d6",
+				"dweb:/ipfs/QmRSZvQ8nzdd9KTi9b69PaPzpRVPzVjwTv1383u5R7r2gX"
+			]
+		}
+	},
+	"version": 1
+}
