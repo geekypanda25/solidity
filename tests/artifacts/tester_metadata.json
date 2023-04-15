@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "runandcheck",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/GovTest.sol": "tester"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"GovFactory.sol": {
+			"keccak256": "0xcf9f5e1ef697c9801e3def2102a6872eb6d01f8669e3b0b4ab846d63dec2f3d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8f54f3755dbac7b6ab55af247971a8807b955e8912645f59245777c7d5417b3",
+				"dweb:/ipfs/QmfLZRVk19KBmvmSgfHbZytn3nVZhqxF45qdbUrHxFeZxG"
+			]
+		},
+		"Governor.sol": {
+			"keccak256": "0x98aa8b4467afa7dda847d1bed4ddf1c44ed080f3c3781921592d95d4c3bc1a6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f36d0c8138c9ef35874b4fb9e74be92734f27d9ac63f1f00cc00948b3826092",
+				"dweb:/ipfs/QmZJd86H58JuiCmQMVcJrQmUFwZ2AyhkgrsxGVyz788hmS"
+			]
+		},
+		"IGovernor.sol": {
+			"keccak256": "0x8d3a6198452755a66671149e6a074ed3cf9f7dea58822706d7f97fec9ad189cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e2356bfb590f388fd8c8bb7f3650b45b663169b7ee57aeba13880072fde0a6d6",
+				"dweb:/ipfs/QmRSZvQ8nzdd9KTi9b69PaPzpRVPzVjwTv1383u5R7r2gX"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		},
+		"tests/GovTest.sol": {
+			"keccak256": "0xc1ce14beae5495dcc30e7c3f242aa287bf5ed3722ad5d5b06d0b352e5e0c8333",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01440a6a2238cd476b2e4d15630fd403b4080ae04d58acba4a91b05c328a637d",
+				"dweb:/ipfs/QmNgmo6rtvdv7DZyxjpR8pXkZzRy9XFnXbQ8NzhU4sfcqU"
+			]
+		}
+	},
+	"version": 1
+}

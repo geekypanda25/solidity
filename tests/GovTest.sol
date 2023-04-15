@@ -3,10 +3,13 @@
 pragma solidity ^0.8.17;
 
 import "hardhat/console.sol";
-import "../contracts/GovFactory.sol"
+import "../GovFactory.sol";
 
 contract tester {
+    GovFactory factory;
 
+    function runandcheck() public {
+        Assert.equal(factory.numdeploed(),uint256(0),"should be 0");
+    }
 }
 
-0x80C8659a2F335DDfC707bE12F795D1f8d952C262

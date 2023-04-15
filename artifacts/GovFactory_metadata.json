@@ -47,6 +47,19 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numdeployed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -85,11 +98,11 @@
 			]
 		},
 		"GovFactory.sol": {
-			"keccak256": "0x53b4b7254e5484d2e91477d547ec8f1ee641bd5196a86cf1be4f60cac3133863",
+			"keccak256": "0xcf9f5e1ef697c9801e3def2102a6872eb6d01f8669e3b0b4ab846d63dec2f3d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b753dd721cb90f046376ca9459a2057f28849d6d54f9348dd97f8f0d66ed40c7",
-				"dweb:/ipfs/QmNVGyjrtDxNwHrp6hgZeQSwbuv8YYkh4NgvEVfpuDhyGU"
+				"bzz-raw://a8f54f3755dbac7b6ab55af247971a8807b955e8912645f59245777c7d5417b3",
+				"dweb:/ipfs/QmfLZRVk19KBmvmSgfHbZytn3nVZhqxF45qdbUrHxFeZxG"
 			]
 		},
 		"Governor.sol": {
